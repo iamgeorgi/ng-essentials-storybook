@@ -1,0 +1,18 @@
+@if(initNewTaskCreation) {
+    <app-new-task [userId]="userId" (closeModal)="showNewTask(false)" />
+}
+<section id="tasks">
+    <header>
+        <h2>{{ name }}'s Tasks</h2>
+        <menu>
+            <button (click)="showNewTask(true)">Add Task</button>
+        </menu>
+    </header>
+    <ul>
+        @for (task of selecteUserTasks; track task.id) {
+            <li>
+                <app-task [task]="task" />
+            </li>
+        }
+    </ul>
+</section>
