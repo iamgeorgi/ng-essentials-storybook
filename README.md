@@ -30,6 +30,7 @@ import { Component } from '@angular/core';
 })
 export class ExampleComponent {}
 ```
+@Component is Angular Decorator which provides metadata to the class declaration
 
 ---
 ## Component Communication
@@ -135,11 +136,13 @@ Dynamically apply classes and styles based on component properties.
 ---
 ## Content Projection (`ng-content`)
 Allows child components to project content into a placeholder.
+Main element(app-card) adds ng-content wrapper
 ```html
 <ng-content></ng-content>
 ```
 
 ### Usage
+Main element(app-card) wraps elements in another components thanks to ng-content element
 ```html
 <app-card>
   <p>Content inside projected slot</p>
