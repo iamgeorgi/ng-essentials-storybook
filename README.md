@@ -1,5 +1,18 @@
 # Angular Essentials Summary
 
+## 🔗 Quick Navigation
+- [What is Angular?](#what-is-angular)
+- [Angular Components](#angular-components)
+- [Component Communication](#component-communication)
+- [Dynamic Data in Templates](#dynamic-data-in-templates)
+- [Built-in Directives](#built-in-directives)
+- [Dynamic CSS Classes and Styles](#dynamic-css-classes-and-styles)
+- [Content Projection (`ng-content`)](#content-projection-ng-content)
+- [Built-in Pipes](#built-in-pipes)
+- [Services and Dependency Injection](#services-and-dependency-injection)
+
+---
+
 ## What is Angular?
 Angular is a TypeScript-based open-source front-end framework developed by Google. It is used to build single-page applications (SPAs) with a reactive architecture and modular structure.
 
@@ -185,4 +198,3 @@ export class AnotherComponent {
 
 ---
 This summary provides a quick reference for Angular essentials. Expand it as needed for further topics!
-
